@@ -4,10 +4,10 @@ Este repositorio contiene los trabajos prácticos de la materia **Programación 
 
 ## 👥 Integrantes del grupo
 
-- Nombre Apellido 1
-- Nombre Apellido 2
-- Nombre Apellido 3
-- Nombre Apellido 4
+- Lorenzo De Mauri
+- Mateo Canievsky
+- Federico Ferrante
+- Juan Ferro
 
 ## 📚 Contenido
 
@@ -24,17 +24,30 @@ El proyecto se divide en 6 trabajos prácticos, organizados por temas:
 
 Cada carpeta incluye el código fuente, diagramas UML, pruebas y documentación correspondiente a cada guía.
 
----
 
-## 🛠️ Tecnologías utilizadas
-
-- **Lenguaje:** Java 17+
-- **IDE sugerido:** IntelliJ IDEA / Eclipse / NetBeans
-- **Modelo de Arquitectura:** MVC (cuando se requiere)
-- **Documentación:** javadoc
-- **Testing:** Pruebas positivas y negativas (JUnit en algunos TPs)
 
 ---
 
 ## 📂 Estructura del repositorio
 
+
+Cada carpeta contiene:
+- Código fuente (`.java`)
+- UML (`.png` o `.drawio`)
+- Pruebas y ejemplos de uso
+- Documentación en javadoc (en caso de requerirse)
+
+---
+
+## 🔧 Compilación y ejecución
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/usuario/tps-progII-2025.git
+
+# Ingresar a una carpeta de TP
+cd TP2_Catalogo
+
+# Compilar y ejecutar (si es una app por consola)
+javac *.java
+java Main
