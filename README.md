@@ -26,28 +26,4 @@ Cada carpeta incluye el código fuente, diagramas UML, pruebas y documentación 
 
 
 
----
 
-## 📂 Estructura del repositorio
-
-
-Cada carpeta contiene:
-- Código fuente (`.java`)
-- UML (`.png` o `.drawio`)
-- Pruebas y ejemplos de uso
-- Documentación en javadoc (en caso de requerirse)
-
----
-
-## 🔧 Compilación y ejecución
-
-```bash
-# Clonar el repositorio
-git clone https://github.com/usuario/tps-progII-2025.git
-
-# Ingresar a una carpeta de TP
-cd TP2_Catalogo
-
-# Compilar y ejecutar (si es una app por consola)
-javac *.java
-java Main
